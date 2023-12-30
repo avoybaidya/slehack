@@ -1,52 +1,68 @@
+
 # SLEHACK
 
-# Project Name
+## Project Name: SLE Interactive Learning
 
-## Introduction
+### Introduction
 
-This is a brief description of the app. Explain what the app does and any important information users should know.
+SLE Interactive Learning is an innovative app designed to make sign language learning accessible and enjoyable. This app stands out with its use of cutting-edge 3D models and artificial intelligence, providing an interactive learning experience. Whether you’re learning at your own pace or challenging yourself with a time-bound quiz, SLE Interactive Learning caters to various learning preferences.
 
-## Prerequisites
+### Prerequisites
 
-Before you run this app, you need to ensure you have the following installed:
+To get started with SLE Interactive Learning, ensure you have the following:
 
-- macOS with latest updates
-- [Xcode](https://developer.apple.com/xcode/) (latest version)
+- macOS with the latest updates.
+- The latest version of [Xcode](https://developer.apple.com/xcode/), which you can download from the Apple Developer website.
 
-## Getting Started
+### Getting Started
 
-Here's a step-by-step guide on how to run this project on your machine:
+Follow these steps to set up the project on your machine:
 
-### Step 1: Clone the Repository
+#### Step 1: Clone the Repository
 
-In your terminal, run the following command to clone the repository:
+Clone the SLE Interactive Learning repository using the following command in your terminal:
 
+git clone https://github.com/username/sle-interactive-learning.git
 
-git clone https://github.com/username/projectname.git
+#### Step 2: Open the Project in Xcode
 
-## Step 2: Open the Project in Xcode
+Change into the cloned directory:
 
-Navigate to the cloned directory:
+cd sle-interactive-learning
 
-cd projectname
+Open the project workspace in Xcode:
 
-Step 2: Open the Project in Xcode
-Navigate to the cloned directory:
+open sle-interactive-learning.xcworkspace
 
-Copy
-cd projectname
-Locate the .xcodeproj or .xcworkspace file and open it:
+#### Step 3: Run the App
 
+In Xcode, select an iOS simulator or connect your iOS device and choose it as the build target. Press the "Run" button or the Cmd + R shortcut to build and run the app.
 
-Copy
-open projectname.xcodeproj
-or
+### Inspiration
 
+Our motivation stems from personal experiences and the challenges faced by deaf friends. We're on a mission to create a comprehensive tool that makes learning sign language not only more accessible but also an enjoyable experience.
 
-Copy
-open projectname.xcworkspace
+### Functionality
 
-## Step 3: Run the App
-Select an iOS simulator or connect your iOS device and select it as the target in the top toolbar of Xcode. Click the "Run" button or press Cmd + R to build and run the app.
+SLE Interactive Learning leverages state-of-the-art 3D models and AI to provide an engaging sign language learning experience. The app includes a self-paced learning mode and a quiz mode to accommodate different learning styles.
 
+### Building Process
 
+We utilized echoAR for the rendering of 3D models and integrated machine learning algorithms to ensure accurate sign verification, providing a seamless learning experience.
+
+### Challenges
+
+One significant challenge was finding appropriate 3D models for the sign language alphabet. This challenge led us to learn 3D modeling software to create the models ourselves.
+
+### Achievements
+
+Our most notable achievement is the fusion of 3D models with AI technology, resulting in a user-friendly sign language learning app that suits various learning styles.
+
+### Lessons Learned
+
+Through this project, we've acquired skills in 3D model rigging and posing, training CoreML models, and using the Apple Vision API for image recognition.
+
+### Future Vision for SLE Learn
+
+We aim to expand the app's vocabulary, include phrases, structured training modules, and introduce new learning modes like a speed-run feature. Our goal is to enhance the learning experience, making it more comprehensive and engaging for users.
+```
